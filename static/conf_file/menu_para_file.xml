@@ -1,0 +1,49 @@
+<root>
+    <infomenu>
+        <nbrbutton>2</nbrbutton> <!-- gestion d'erreure x > 0 && x < 12 -->
+        <iconetext>Home</iconetext>
+        <index>/</index>
+        <domain>/</domain>
+        <icone>fas fa-home</icone>
+    </infomenu>
+    <button0>
+        <dropdownnbr>3</dropdownnbr>
+        <text>Cal</text>
+        <href>drop0</href>
+        <icone>fas fa-vial</icone>
+        <dropdown0>
+            <textdrop>Annuel</textdrop>
+            <hrefdrop>cal/year</hrefdrop>
+        </dropdown0>
+        <dropdown1>
+            <textdrop>Sprints</textdrop>
+            <hrefdrop>cal/sprint</hrefdrop>
+        </dropdown1>
+    </button0>
+    <button1>
+        <dropdownnbr>5</dropdownnbr>
+        <text>Utils</text>
+        <href>drop1</href>
+        <icone>fas fa-diagnoses</icone>
+        <dropdown0>
+            <textdrop>Wiki</textdrop>
+            <hrefdrop><center>cal/wiki</center></hrefdrop>
+        </dropdown0>
+        <dropdown1>
+            <textdrop>Todo</textdrop>
+            <hrefdrop>cal/todo</hrefdrop>
+        </dropdown1>
+        <dropdown2>
+            <textdrop>Article</textdrop>
+            <hrefdrop>cal/article</hrefdrop>
+        </dropdown2>
+        <dropdown3>
+            <textdrop>Taches de groupes</textdrop>
+            <hrefdrop>cal/dashboard</hrefdrop>
+        </dropdown3>
+        <dropdown4>
+            <textdrop>Manag ement</textdrop>
+            <hrefdrop>cal/mgmt</hrefdrop>
+        </dropdown4>
+    </button1>
+</root>
