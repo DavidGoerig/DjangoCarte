@@ -7,17 +7,17 @@
 {% block content %}
 {% with domain="/" %}{% endwith %}
     <h1 class="welcomepolicetitle">Welcome {{ name }}</h1>
-    <p class="welcomepolicetxt">Bienvenu dans le point d'entrée de l'outil de management de SmarteningLight.</p>
+    <p class="welcomepolicetxt">Bienvenu dans le point d'entrée des test de cartes interactive.</p>
     <div class="row">
         <div class="col-sm-1 col-md-1 col-lg-2"></div>
         <div class="col-sm-10 col-md-10 col-lg-8 m-5 bgdiv">
             <div class="row">
-                <span class="titlebox">Calendrier:</span>
+                <span class="titlebox">Factice home</span>
             </div>
             <div class="row">
                 <div class="col-sm-0 col-md-2 col-lg-2 centered"></div>
                 <div class="col-sm-12 col-md-4 col-lg-4 centered">
-                    <a href="{{domainstring}}cal/year">
+                    <a href="{{domainstring}}imap/home">
                         <div class="row boxes m-1">
                             <div class="col-sm-4 col-md-12 col-lg-12 centered">
                                 <div class="row">
@@ -28,121 +28,7 @@
                                 </div>
                             </div>
                             <div class="col-sm-8 col-md-12 col-lg-12 mt-3 mb-3 centered">
-                                <span class="boxfield">Calendrier annuel</span>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-12 col-md-4 col-lg-4 centered">
-                    <a href="{{domainstring}}cal/sprint">
-                        <div class="row boxes m-1">
-                            <div class="col-sm-4 col-md-12 col-lg-12 centered">
-                                <div class="row">
-                                    <div class="col-sm-4 col-md-4 col-lg-4"></div>
-                                    <div class="col-sm-4 col-md-4 col-lg-4 centered">
-                                        <img src="/static/img/icons/sprint.svg" class="rocheicone" width="100%" height="100%">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-8 col-md-12 col-lg-12 mt-3 mb-3 centered">
-                                <span class="boxfield">Sprints</span>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-1 col-md-1 col-lg-2"></div>
-    </div>
-    <div class="row">
-        <div class="col-sm-1 col-md-1 col-lg-2"></div>
-        <div class="col-sm-10 col-md-10 col-lg-8 m-5 bgdiv">
-            <div class="row">
-                <span class="titlebox">Utils:</span>
-            </div>
-            <div class="row">
-                <div class="col-sm-12 col-md-4 col-lg-4 centered">
-                    <a href="{{domainstring}}cal/wiki">
-                        <div class="row boxes m-1">
-                            <div class="col-sm-4 col-md-12 col-lg-12 centered">
-                                <div class="row">
-                                    <div class="col-sm-4 col-md-4 col-lg-4"></div>
-                                    <div class="col-sm-4 col-md-4 col-lg-4 centered">
-                                        <img src="/static/img/icons/wiki.svg" class="rocheicone" width="100%" height="100%">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-8 col-md-12 col-lg-12 mt-3 mb-3 centered">
-                                <span class="boxfield">Wiki</span>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-12 col-md-4 col-lg-4 centered">
-                    <a href="{{domainstring}}cal/todo">
-                        <div class="row boxes m-1">
-                            <div class="col-sm-4 col-md-12 col-lg-12 centered">
-                                <div class="row">
-                                    <div class="col-sm-4 col-md-4 col-lg-4"></div>
-                                    <div class="col-sm-4 col-md-4 col-lg-4 centered">
-                                        <img src="/static/img/icons/todo.svg" class="rocheicone" width="100%" height="100%">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-8 col-md-12 col-lg-12 mt-3 mb-3 centered">
-                                <span class="boxfield">TODO</span>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-12 col-md-4 col-lg-4 centered">
-                    <a href="{{domainstring}}cal/article">
-                        <div class="row boxes m-1">
-                            <div class="col-sm-4 col-md-12 col-lg-12 centered">
-                                <div class="row">
-                                    <div class="col-sm-4 col-md-4 col-lg-4"></div>
-                                    <div class="col-sm-4 col-md-4 col-lg-4 centered">
-                                        <img src="/static/img/icons/article.svg" class="rocheicone" width="100%" height="100%">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-8 col-md-12 col-lg-12 mt-3 mb-3 centered">
-                                <span class="boxfield">Articles</span>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-0 col-md-2 col-lg-2 centered"></div>
-                <div class="col-sm-12 col-md-4 col-lg-4 centered">
-                    <a href="{{domainstring}}cal/dashboard">
-                        <div class="row boxes m-1">
-                            <div class="col-sm-4 col-md-12 col-lg-12 centered">
-                                <div class="row">
-                                    <div class="col-sm-4 col-md-4 col-lg-4"></div>
-                                    <div class="col-sm-4 col-md-4 col-lg-4 centered">
-                                        <img src="/static/img/icons/dashboard.svg" class="rocheicone" width="100%" height="100%">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-8 col-md-12 col-lg-12 mt-3 mb-3 centered">
-                                <span class="boxfield">Tâches de groupe</span>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-12 col-md-4 col-lg-4 centered">
-                    <a href="{{domainstring}}cal/mgmt">
-                        <div class="row boxes m-1">
-                            <div class="col-sm-4 col-md-12 col-lg-12 centered">
-                                <div class="row">
-                                    <div class="col-sm-4 col-md-4 col-lg-4"></div>
-                                    <div class="col-sm-4 col-md-4 col-lg-4 centered">
-                                        <img src="/static/img/icons/management.svg" class="rocheicone" width="100%" height="100%">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-8 col-md-12 col-lg-12 mt-3 mb-3 centered">
-                                <span class="boxfield">Management processus</span>
+                                <span class="boxfield">Imap home</span>
                             </div>
                         </div>
                     </a>

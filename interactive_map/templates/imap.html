@@ -1,0 +1,191 @@
+{% extends "base_free.html" %}
+{% load static %}
+{% block title %}Default{% endblock %}
+{% block scriptncss %}
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+
+      <script type="text/javascript" src="{% static "js/imap_creation.js" %}"></script>
+    <link href="{% static "/imap/assets/css/main.css" %}" rel="stylesheet" type="text/css" />
+{% endblock %}
+{% block content %}
+
+  <h1>Resultat projet: <span id="imap_id">{{ map_id }}</span></h1>
+    <div class="row">
+  <div class="col-lg-8 col-md-12 col-sm-12">
+      <div class="row">
+          <a id="h18" class="btn btn-lg btn-primary">18-19h</a>
+          <a id="h19" class="btn btn-lg btn-primary">19-20h</a>
+          <a id="h20" class="btn btn-lg btn-primary">20-21h</a>
+          <a id="h21" class="btn btn-lg btn-primary">21-22h</a>
+          <a id="h22" class="btn btn-lg btn-primary">22-23h</a>
+          <a id="h23" class="btn btn-lg btn-primary">23-00h</a>
+          <a id="h0" class="btn btn-lg btn-primary">00-1h</a>
+          <a id="h1" class="btn btn-lg btn-primary">1-2h</a>
+          <a id="h2" class="btn btn-lg btn-primary">2-3h</a>
+          <a id="h3" class="btn btn-lg btn-primary">3-4h</a>
+          <a id="h4" class="btn btn-lg btn-primary">4-5h</a>
+          <a id="h5" class="btn btn-lg btn-primary">5-6h</a>
+          <a id="h6" class="btn btn-lg btn-primary">6-7h</a>
+          <a id="h7" class="btn btn-lg btn-primary">7h-8h</a>
+          <select id="pietorcar">
+              <option value="piet" selected>Piéton</option>
+              <option value="car">Voiture</option>
+          </select>
+      </div>
+      <div class="row">
+          <object id="svgObject" type="image/svg+xml" data="/static/imap/map_config/{{ map_id }}/imap.svg">
+                Your browser does not support SVG
+        </object>
+      </div>
+  </div>
+  <div class="col-lg-4 col-md-12 col-sm-12">
+      <div class="panel panel-default" style="background-color: white;">
+          <div class="panel-heading">Information</div>
+          <div class="panel-body p-5">
+              <div id="info">
+                  <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="row"><b>Nbr lampadaires:</b></div>
+                        <div class="row"><b>Moyenne de passant (piéton / véhicule):</b></div>
+                        <div class="row marge">18h - 19h:</div>
+                        <div class="row marge">19h - 20h:</div>
+                        <div class="row marge">20h - 21h:</div>
+                        <div class="row marge">21h - 22h:</div>
+                        <div class="row marge">22h - 23h:</div>
+                        <div class="row marge">23h - 0h:</div>
+                        <div class="row marge">0h - 1h:</div>
+                        <div class="row marge">1h - 2h:</div>
+                        <div class="row marge">2h - 3h:</div>
+                        <div class="row marge">3h - 4h:</div>
+                        <div class="row marge">4h - 5h:</div>
+                        <div class="row marge">5h - 6h:</div>
+                        <div class="row marge">6h - 7h:</div>
+                        <div class="row marge">7h - 8h:</div>
+                        <div class="row"><b>% d'électricité économisé avec des LEDS:</b></div>
+                        <div class="row"><b>% d'électricité économisé avec des Lampadaire intelligent:</b></div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                      <div class="row" id="nblamp">/</div>
+                      <br><br><div class="row" id="nb18">/</div>
+                      <div class="row" id="nb19">/</div>
+                      <div class="row" id="nb20">/</div>
+                      <div class="row" id="nb21">/</div>
+                      <div class="row" id="nb22">/</div>
+                      <div class="row" id="nb23">/</div>
+                      <div class="row" id="nb0">/</div>
+                      <div class="row" id="nb1">/</div>
+                      <div class="row" id="nb2">/</div>
+                      <div class="row" id="nb3">/</div>
+                      <div class="row" id="nb4">/</div>
+                      <div class="row" id="nb5">/</div>
+                      <div class="row" id="nb6">/</div>
+                      <div class="row" id="nb7">/</div>
+                      <br><div class="row" id="p1">/</div>
+                      <br><div class="row" id="p2">/</div>
+                    </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-lg-2 col-md-2 col-sm-2"></div>
+                      <div class="col-lg-8 col-md-8 col-sm-8">
+                        <div class="row">
+                          Je choisis de faire des économies avec les LEDS dans cette rue:
+                          <input type="button" value="None" id="make_economy_led">
+                      </div>
+                        <div class="row">
+                          Je choisis de faire des économies avec les Lampadaires électriques dans cette rue:
+                          <input type="button" value="None" id="make_economy_lamp">
+                      </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class = "row">
+      <div class="col-lg-1 col-md-1 col-sm-1"></div>
+      <div class="col-lg-6 col-md-6 col-sm-6">
+      <p>Légende:</p>
+      <a id="b1">0 - 10</a>
+      <a id="b2">10 - 20</a>
+      <a id="b3">20 - 30</a>
+      <a id="b4">30 - 40</a>
+      <a id="b5">40 - 50</a>
+      <a id="b6">50 - 60</a>
+      <a id="b7">60 - 70</a>
+      <a id="b8">70 - 80</a>
+      <a id="b9">80 - 90</a>
+      <a id="b10">>90</a>
+      </div>
+
+  </div>
+    </div>
+  <div class = "row p-5" style="background-color: white">
+      <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6">
+              Mes rues choisis:
+              <div id="chosen_street">
+
+              </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6">
+              <div class="row">
+                  <div class="col-lg-6 col-md-6 col-sm-6">
+                      <div class="row">
+                          Nbr lampadaire a changer:
+                      </div>
+                      <div class="row">
+                          <div class="col-lg-6 col-md-6 col-sm-6" id="nbrlampchange">
+                              0
+                          </div>
+                          <div class="col-lg-6 col-md-6 col-sm-6">
+                              <img src="/static/imap/assets/img/street-lamp.svg" />
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6">
+                      <div class="row">
+                          Ce que j'économise par an:
+                      </div>
+                      <div class="row">
+                          <div class="col-lg-6 col-md-6 col-sm-6" id="casheco">
+                              0
+                          </div>
+                          <div class="col-lg-6 col-md-6 col-sm-6">
+                              <img src="/static/imap/assets/img/earnings.svg" />
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-lg-6 col-md-6 col-sm-6">
+                      <div class="row">
+                          Coût:
+                      </div>
+                      <div class="row">
+                          <div class="col-lg-6 col-md-6 col-sm-6" id="couteco">
+                              0
+                          </div>
+                          <div class="col-lg-6 col-md-6 col-sm-6">
+                              <img src="/static/imap/assets/img/budget.svg" />
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6">
+                      <div class="row">
+                          Gain certificat éco:
+                      </div>
+                      <div class="row">
+                          <div class="col-lg-6 col-md-6 col-sm-6" id="gain_certif">
+                              0
+                          </div>
+                          <div class="col-lg-6 col-md-6 col-sm-6">
+                              <img src="/static/imap/assets/img/eco.svg" />
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+{% endblock %}

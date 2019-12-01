@@ -1,0 +1,310 @@
+ /*
+ * Author: David Goerig
+ * Project: Synapse Robotics
+ * File: Main class file for the robot application
+ */
+
+body {
+  background-color: #389499;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+}
+
+/* Titles */
+h3 {
+    font-family: "Raleway";
+    font-weight: 300;
+    color: #ffffff;
+}
+
+/*
+** List style
+ */
+
+ #sl-pagination span { padding-left: 2px; padding-right: 2px; font-color: white;}
+ .sl-pagination-selected { border: 1px solid #336699; background-color: #E5F3FE; font-weight: bold; padding: 2px; color: white;}
+ .sl-pagination-selected a:link, .sl-pagination-selected a:visited { text-decoration: none; color: #0099FF }
+
+.centered {
+    text-align: center;
+}
+
+ /*
+ ** Emergency disable class for top pading
+  */
+
+ .emergency_dis {
+     margin-top: 350px;
+ }
+
+ /*
+ ** list, this align the text at right, in order to make difference between flag and button name
+  */
+
+ .list {
+     text-align: right;
+ }
+
+
+/* Links */
+ /* On homepage */
+a {
+    color: #ffffff;
+    word-wrap: break-word;
+    font-size: 50 px !important;
+
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+/*---------------------------------------------------
+	INDEX.HTML -> touchez moi pour me reveiller
+---------------------------------------------------*/
+
+/* Header Wrap  Homepage and CV*/
+#headerwrap {
+	margin-top: 60px;
+	padding-top: 10px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	width: 100%;
+}
+
+/*
+** Footer CSS fo align footer icone"
+ */
+ #centrage {
+	 text-align: center;
+	 background-attachment: relative;
+	 background-position: center center;
+	 width: 100%;
+ }
+
+
+/* Intnro Wrap */
+
+#intro {
+	background: #2c3e50;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	color: white;
+}
+
+#intro i {
+	color: white;
+	font-size: 20px;
+	padding-right: 8px;
+	vertical-align: middle;
+}
+
+/* footer wrap */
+
+#footwrap {
+	background: #2f2f2f;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	position:fixed;
+	bottom:0px;
+	width:100%;
+}
+
+/* emergency-row */
+#emergency-row {
+	padding-bottom: 20px;
+}
+
+#emergency-row h5 {
+	color: red;
+}
+
+#footwrap h5 {
+	color: white;
+}
+
+
+#footwrap t {
+	font-weight: 700;
+}
+
+#footwrap i {
+	padding-right: 8px;
+	color: #1abc9c;
+}
+
+
+#sm {
+	font-size: 12px;
+}
+
+/*
+** Medicapp
+ */
+ /*
+ **  title
+  */
+
+.medicapptitle {
+     text-align: center;
+     font-size: 80px;
+     margin-top: 40px;
+     margin-bottom: 40px;
+    color: white;
+}
+
+/*
+** Index.php repos
+ */
+ .titlehome{
+     color: white;
+     font-size: 80px;
+ }
+
+ /*
+ ** homepage_user
+  */
+
+ .homepage_title_font {
+     font-size: 80px;
+     color: white;
+ }
+
+ .homepage_font {
+     font-size: 60px;
+     color: white;
+ }
+
+ .homepage_font_dis {
+     font-size: 30px;
+     color: white;
+ }
+
+ /*
+** homepage categorie valid
+ */
+
+ .title_homepage {
+     margin-top: 10px;
+ }
+
+ .cat_homepage {
+     border:1px solid #ffffff;
+ }
+
+ .category {
+     margin-top: 80px;
+ }
+
+ /*
+** homepage categorie disable
+ */
+
+ .category_dis {
+     margin-top: 30px;
+ }
+
+ .title_homepage_dis {
+     margin-top: 1050px;
+ }
+
+ /*
+ ** Medic-APP (title used from homepage)
+  */
+
+ .flag-font {
+     font-size: 50px;
+ }
+
+ .app-name-font {
+     font-size: 70px;
+     color: white;
+ }
+
+ /*
+ ** End of taskss (title used from hoemapege)
+  */
+
+ .new-tasks {
+     font-size: 70px;
+     color: white;
+ }
+
+ .remain-time {
+     font-size: 70px;
+     color: #4e4c50;
+ }
+
+ .title_eot_dis {
+     margin-top: 690px;
+ }
+
+ /*
+ ** Medic exam dis
+  */
+
+ .medic_exam_disable {
+     margin-top: 650px;
+ }
+
+ /*
+** orientation dis
+ */
+
+ .orientation_disable {
+     margin-top: 800px;
+ }
+
+ /*
+ ** emergency dis
+  */
+
+ .emergency_disable {
+     margin-top: 600px;
+ }
+
+ /*
+ ** document dis
+  */
+
+ .document_dis {
+     margin-top: 550px;
+ }
+
+
+ /*
+ ---------------------------------
+  */
+
+ .marge {
+     margin-left: 10px;
+ }

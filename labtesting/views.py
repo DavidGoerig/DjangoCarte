@@ -24,7 +24,7 @@ from .forms import MeetingForm, RapportForm, TaskForm, TodoForm, KnowledgeArticl
 @login_required
 def home(request):
     domainstring = "/"
-    return render(request, 'labtesting/home.html', locals())
+    return render(request, 'labtesting/../interactive_map/templates/home.html', locals())
 
 """
     This function define the page: year
