@@ -66,20 +66,20 @@
             <wayAllieSouth>12</wayAllieSouth>
         </car>
         <piet>
-            <wayBelfort>34</wayBelfort>
-            <wayVosges>43</wayVosges>
+            <wayBelfort>10</wayBelfort>
+            <wayVosges>20</wayVosges>
             <wayAu>10</wayAu>
             <wayEcluse>20</wayEcluse>
-            <wayArcCercle>30</wayArcCercle>
-            <wayPaix>40</wayPaix>
-            <wayAllieNorth>50</wayAllieNorth>
-            <wayRaccourci>60</wayRaccourci>
-            <wayPreUn>70</wayPreUn>
-            <wayPreDeux>80</wayPreDeux>
-            <wayCanal>90</wayCanal>
-            <wayParis>10</wayParis>
+            <wayArcCercle>10</wayArcCercle>
+            <wayPaix>20</wayPaix>
+            <wayAllieNorth>10</wayAllieNorth>
+            <wayRaccourci>20</wayRaccourci>
+            <wayPreUn>10</wayPreUn>
+            <wayPreDeux>20</wayPreDeux>
+            <wayCanal>10</wayCanal>
+            <wayParis>20</wayParis>
             <wayBlothzeim>11</wayBlothzeim>
-            <wayAllieSouth>12</wayAllieSouth>
+            <wayAllieSouth>22</wayAllieSouth>
         </piet>
     </h18>
     <h19>
@@ -100,54 +100,54 @@
             <wayAllieSouth>12</wayAllieSouth>
         </car>
         <piet>
-            <wayBelfort>34</wayBelfort>
-            <wayVosges>43</wayVosges>
-            <wayAu>10</wayAu>
-            <wayEcluse>20</wayEcluse>
-            <wayArcCercle>30</wayArcCercle>
-            <wayPaix>40</wayPaix>
-            <wayAllieNorth>50</wayAllieNorth>
-            <wayRaccourci>60</wayRaccourci>
-            <wayPreUn>70</wayPreUn>
-            <wayPreDeux>80</wayPreDeux>
-            <wayCanal>90</wayCanal>
-            <wayParis>10</wayParis>
-            <wayBlothzeim>11</wayBlothzeim>
-            <wayAllieSouth>12</wayAllieSouth>
+            <wayBelfort>20</wayBelfort>
+            <wayVosges>30</wayVosges>
+            <wayAu>20</wayAu>
+            <wayEcluse>30</wayEcluse>
+            <wayArcCercle>20</wayArcCercle>
+            <wayPaix>30</wayPaix>
+            <wayAllieNorth>20</wayAllieNorth>
+            <wayRaccourci>30</wayRaccourci>
+            <wayPreUn>20</wayPreUn>
+            <wayPreDeux>30</wayPreDeux>
+            <wayCanal>20</wayCanal>
+            <wayParis>30</wayParis>
+            <wayBlothzeim>21</wayBlothzeim>
+            <wayAllieSouth>32</wayAllieSouth>
         </piet>
     </h19>
     <h20>
         <car>
-            <wayBelfort>42</wayBelfort>
-            <wayVosges>24</wayVosges>
-            <wayAu>10</wayAu>
-            <wayEcluse>20</wayEcluse>
+            <wayBelfort>32</wayBelfort>
+            <wayVosges>44</wayVosges>
+            <wayAu>30</wayAu>
+            <wayEcluse>40</wayEcluse>
             <wayArcCercle>30</wayArcCercle>
             <wayPaix>40</wayPaix>
-            <wayAllieNorth>50</wayAllieNorth>
-            <wayRaccourci>60</wayRaccourci>
-            <wayPreUn>70</wayPreUn>
-            <wayPreDeux>80</wayPreDeux>
-            <wayCanal>90</wayCanal>
-            <wayParis>10</wayParis>
-            <wayBlothzeim>11</wayBlothzeim>
-            <wayAllieSouth>12</wayAllieSouth>
+            <wayAllieNorth>30</wayAllieNorth>
+            <wayRaccourci>40</wayRaccourci>
+            <wayPreUn>30</wayPreUn>
+            <wayPreDeux>40</wayPreDeux>
+            <wayCanal>30</wayCanal>
+            <wayParis>40</wayParis>
+            <wayBlothzeim>31</wayBlothzeim>
+            <wayAllieSouth>42</wayAllieSouth>
         </car>
         <piet>
-            <wayBelfort>34</wayBelfort>
-            <wayVosges>43</wayVosges>
-            <wayAu>10</wayAu>
-            <wayEcluse>20</wayEcluse>
+            <wayBelfort>32</wayBelfort>
+            <wayVosges>44</wayVosges>
+            <wayAu>30</wayAu>
+            <wayEcluse>40</wayEcluse>
             <wayArcCercle>30</wayArcCercle>
             <wayPaix>40</wayPaix>
-            <wayAllieNorth>50</wayAllieNorth>
-            <wayRaccourci>60</wayRaccourci>
-            <wayPreUn>70</wayPreUn>
-            <wayPreDeux>80</wayPreDeux>
-            <wayCanal>90</wayCanal>
-            <wayParis>10</wayParis>
-            <wayBlothzeim>11</wayBlothzeim>
-            <wayAllieSouth>12</wayAllieSouth>
+            <wayAllieNorth>30</wayAllieNorth>
+            <wayRaccourci>40</wayRaccourci>
+            <wayPreUn>30</wayPreUn>
+            <wayPreDeux>40</wayPreDeux>
+            <wayCanal>30</wayCanal>
+            <wayParis>40</wayParis>
+            <wayBlothzeim>31</wayBlothzeim>
+            <wayAllieSouth>42</wayAllieSouth>
         </piet>
     </h20>
     <h21>
@@ -168,14 +168,14 @@
             <wayAllieSouth>52</wayAllieSouth>
         </car>
         <piet>
-            <wayBelfort>34</wayBelfort>
-            <wayVosges>43</wayVosges>
-            <wayAu>10</wayAu>
-            <wayEcluse>20</wayEcluse>
-            <wayArcCercle>30</wayArcCercle>
-            <wayPaix>40</wayPaix>
-            <wayAllieNorth>50</wayAllieNorth>
-            <wayRaccourci>60</wayRaccourci>
+            <wayBelfort>44</wayBelfort>
+            <wayVosges>>53</wayVosges>
+            <wayAu>40</wayAu>
+            <wayEcluse>50</wayEcluse>
+            <wayArcCercle>40</wayArcCercle>
+            <wayPaix>50</wayPaix>
+            <wayAllieNorth>40</wayAllieNorth>
+            <wayRaccourci>50</wayRaccourci>
             <wayPreUn>70</wayPreUn>
             <wayPreDeux>80</wayPreDeux>
             <wayCanal>90</wayCanal>
